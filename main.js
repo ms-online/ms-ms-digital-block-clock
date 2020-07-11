@@ -34,7 +34,7 @@ function getTime() {
 
   // 设置分钟
   displayNumber(minutesEls[0], +minutes[0]);
-  displayNumber(minutesEls[1], +hours[1]);
+  displayNumber(minutesEls[1], +minutes[1]);
   // 设置秒数
   displayNumber(secondsEls[0], +seconds[0]);
   displayNumber(secondsEls[1], +seconds[1]);
